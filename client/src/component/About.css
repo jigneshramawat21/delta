@@ -1,0 +1,208 @@
+
+.main{
+    position: relative;
+    top: 7.5rem;
+    background-color: white;
+    border: none;
+    padding-top: 5px;
+    
+}
+.service{
+    position: relative;
+    top: 7.5rem;
+    background-color: white;
+    border: none;
+    padding-top: 5px;
+    
+}
+.welcomeaboutpagebg{
+    background-color: rgba(0, 0, 0, 0.37);
+    height:330px;
+}
+.welcomepage{
+    background-image: url(../image/read.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    
+}
+.welcomecontent h1{ 
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.welcomecontent p{
+    font-size: 16px;
+    color: gray;
+}
+.welcomecontent p span{
+    padding-left: 5px;
+}
+.welcomecontent p:hover{
+    color: #d9657c;
+    cursor: pointer;
+}
+.welcomecontent .p1 a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.welcomecontent .p1 a:hover{
+    color: #d9657c;
+    cursor: pointer;
+}
+@media (max-width:500px){
+    .welcomeaboutpagebg{
+        width: 500px;
+    }
+    .welcomepage{
+        width: 500px;
+        top: -48px;
+        position: relative;
+    }
+    .aboutteam{
+        width: 500px;
+    }
+}
+.aboutteamimg h2{
+    font-family: 'Orbitron', sans-serif;
+      
+}
+.aboutteamimg img{
+    border-radius: 50%;
+
+}
+.abouttopteam h2{
+    font-family: 'Orbitron', sans-serif;
+}
+.abouttopteam h6{
+   font-size: 18px;
+   letter-spacing: 1px;
+   padding-top: 4px;
+}
+.faqs{
+    margin-top: -5rem;
+}
+
+.formdiv{
+    height: auto;
+}
+.formdiv{
+    border-radius: 10px;
+    gap: 2rem;
+    box-shadow: 1px 1px 10px rgb(236, 233, 233);
+}
+.contacttitle{
+    font-family: 'Orbitron', sans-serif;
+
+}
+.inputwrap button{
+    background-color: rgb(169, 29, 58);
+    border-radius: 5rem;
+    padding: 12px 35px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.inputwrap{
+    padding-bottom: 30px;
+}
+.inputwrap input{
+    border: solid 1px #c6dfef;
+    height: 43px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inputwrap textarea:hover, input:hover{
+    border: solid 1px rgb(169, 29, 58);
+}
+.inputwrap textarea{
+    border: solid 1px #c6dfef;
+    height: 80px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inputwrap label{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.inputtitlewrap{
+    width: 65%;
+}
+.contactaddress{
+    width: 35%;
+}
+.contactaddress h1,h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
+.contactaddress h2{
+   font-size: 24px;
+}
+.linkurl button{
+    background-color: white;
+    border-radius: 10px;
+    width: 2.3rem;
+    height: 2.3rem;
+    font-size: 15px;
+    border: solid 1px #c6dfef;
+}
+.linkurl button:hover{
+    background-color:rgb(169, 29, 58);
+    color: white;
+  
+}
+.addresslocation{ 
+    width: 100%;
+
+}
+.addresslocation span{
+    padding-right: 20px;
+    font-size: 23px;
+    background-color: transparent;
+}
+.addresslocation h5{
+    line-height: 1px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+.addresslocation p{
+    margin-left: 37px;
+}
+
+.hover-link {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    padding-bottom: 4px;
+  }
+  
+  .hover-link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    top: 25px;
+    background-color: rgb(169, 29, 58);
+    transition: width 0.4s ease;
+  }
+  
+  .hover-link:hover::after {
+    width: 85%;
+    margin-left: 40px;
+  }
+  @media (max-width:990px){
+    .inputtitlewrap{
+        width: 100%;
+    }
+    .contactaddress{
+        width: 100%;
+    }
+  }
